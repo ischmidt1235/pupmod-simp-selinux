@@ -1,0 +1,7 @@
+---
+lockfile_version: 1
+depends:
+- name: disa_stig-el7-baseline
+  resolved_source:
+    path: "/home/ischmidt/dev/pupmod-simp-aide/spec/fixtures/inspec_deps/inspec_profiles/profiles/disa_stig-el7-baseline"
+  version_constraints: []
