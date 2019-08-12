@@ -30,6 +30,10 @@ HOSTS:
         mirrorlist: 'https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch'
         gpgkeys:
           - https://getfedora.org/static/352C64E5.txt
+      chef-current:
+        baseurl: 'https://packages.chef.io/repos/yum/current/el/7/$basearch'
+        gpgkeys:
+          - https://packages.chef.io/chef.asc
 CONFIG:
   log_level: verbose
   type: aio

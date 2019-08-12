@@ -13,5 +13,9 @@ fixtures:
     vox_selinux:
       repo: https://github.com/simp/pupmod-voxpupuli-selinux
       branch: simp-master
+    disa_stig-el7-baseline:
+      repo: https://github.com/simp/inspec-profile-disa_stig-el7
+      branch:  master
+      target: spec/fixtures/inspec_deps/inspec_profiles/profiles
   symlinks:
     selinux: "#{source_dir}"
